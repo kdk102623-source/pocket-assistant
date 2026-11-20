@@ -18,7 +18,7 @@
 * { box-sizing: border-box; }
 html, body { background: var(--night); }
 body { margin: 0; color: var(--ink); font: 15px/1.5 "IBM Plex Sans KR", system-ui, -apple-system, "Apple SD Gothic Neo", sans-serif; -webkit-font-smoothing: antialiased; }
-main { max-width: 520px; margin: 0 auto; padding: 14px 16px 120px; display: grid; gap: 12px; }
+main { max-width: 520px; margin: 0 auto; padding: 14px 16px 190px; display: grid; gap: 12px; }
 [hidden] { display: none !important; }
 button { font: inherit; color: inherit; cursor: pointer; }
 button:focus-visible, input:focus-visible { outline: 2px solid var(--me); outline-offset: 2px; }
@@ -41,7 +41,8 @@ button:focus-visible, input:focus-visible { outline: 2px solid var(--me); outlin
 .mon img { width: 56px; height: 56px; image-rendering: pixelated; object-fit: contain; }
 .mon.on { border-color: var(--me); background: linear-gradient(180deg, rgba(124,108,255,.25), var(--panel2)); }
 .mon .n { position: absolute; top: 4px; left: 4px; width: 20px; height: 20px; border-radius: 6px; background: var(--me); color: #fff; font: 700 12px/20px var(--num); }
-.dock { position: fixed; left: 0; right: 0; bottom: 0; padding: 10px 16px calc(10px + env(safe-area-inset-bottom)); background: linear-gradient(180deg, rgba(10,14,28,0), rgba(10,14,28,.94) 30%); }
+/* 아래 74px 비움: 배포 사이트 오른쪽 아래에 Netlify 표시(높이 64px)가 떠서 버튼을 가림 */
+.dock { position: fixed; left: 0; right: 0; bottom: 0; padding: 10px 16px calc(74px + env(safe-area-inset-bottom)); background: linear-gradient(180deg, rgba(10,14,28,0), rgba(10,14,28,.94) 30%); }
 .dock > div { max-width: 520px; margin: 0 auto; display: flex; gap: 8px; align-items: center; }
 .slots { display: flex; gap: 6px; flex: 1; min-width: 0; }
 .slot { width: 46px; height: 46px; border-radius: 10px; border: 1px dashed var(--line); background: var(--panel); display: grid; place-items: center; position: relative; }
