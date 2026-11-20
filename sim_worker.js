@@ -24,13 +24,15 @@ const ready = (async () => {
   for (const tb of ["species", "moves", "items", "abilities", "fieldEffects"]) for (const x of Object.values(C[tb])) if (x.name && x.nameKo) EN[x.name] = x.nameKo;
   for (const [id, t] of Object.entries(C.types)) if (t.nameKo) EN[id] = t.nameKo;  // "Bug타입" → "벌레타입"
   const abil = {}, typeKo = {};
+  const items = {};
+  for (const [id, x] of Object.entries(C.items)) if (x.champions && x.isBattleItem) items[id] = { ko: x.nameKo || x.name, mega: (x.flags || []).includes("MegaStone") };
   for (const [id, a] of Object.entries(C.abilities)) abil[id] = { ko: a.nameKo || a.name, desc: a.descriptionKo || "" };
   for (const [id, t] of Object.entries(C.types)) typeKo[id] = t.nameKo || id;
   const CAT = { Physical: "물리", Special: "특수", Status: "변화" }, ko = {}, names = {}, moveKo = {}, moveCat = {}, moveType = {};
   const base = {};  // 따라큐(정체 드러남) 같은 다른 모습 → 기본 모습 (그림이 없을 때 대신 씀)
   for (const [id, s] of Object.entries(C.species)) { ko[id] = s.nameKo || s.name; names[id] = s.name; const b = (s.baseSpecies || "").toLowerCase().replace(/[^a-z0-9]/g, ""); if (b && b !== id) base[id] = b; }
   for (const [id, m] of Object.entries(C.moves)) { moveKo[id] = m.nameKo || m.name; moveCat[id] = CAT[m.category] || ""; moveType[id] = m.type || ""; }
-  self.postMessage({ kind: "ready", ko, names, moveKo, moveCat, moveType, abil, typeKo, base });
+  self.postMessage({ kind: "ready", ko, names, moveKo, moveCat, moveType, abil, typeKo, base, items });
 })().catch(e => self.postMessage({ kind: "error", message: "준비 실패: " + (e.message || e) }));
 
 const kindOf = c => c.kind === "switch" ? "교체" : C.moves[c.move]?.category === "Status" ? "변화" : "공격";
