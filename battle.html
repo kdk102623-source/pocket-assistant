@@ -46,6 +46,7 @@ button:focus-visible, input:focus-visible { outline: 2px solid var(--me); outlin
 .slots { display: flex; gap: 6px; flex: 1; min-width: 0; }
 .slot { width: 46px; height: 46px; border-radius: 10px; border: 1px dashed var(--line); background: var(--panel); display: grid; place-items: center; position: relative; }
 .slot img { width: 40px; height: 40px; image-rendering: pixelated; }
+button.slot { padding: 0; border-style: solid; border-color: var(--me); }
 .slot b { position: absolute; top: -6px; left: -6px; font: 700 10px/16px var(--num); width: 16px; height: 16px; border-radius: 5px; background: var(--me); color: #fff; text-align: center; }
 .go { border: 0; border-radius: 12px; padding: 13px 18px; font-weight: 700; color: #fff; background: linear-gradient(100deg, var(--me), var(--opp)); box-shadow: 0 6px 20px rgba(255,61,127,.3); }
 .go:disabled { filter: grayscale(.8); opacity: .5; box-shadow: none; cursor: default; }
@@ -332,10 +333,11 @@ function renderPool() {
 }
 function syncPick() {
   renderPool();
-  $("slots").innerHTML = [0, 1, 2].map(k => picked[k] != null ? `<div class="slot"><b>${k + 1}</b><img src="${icon(POOL[picked[k]].id)}" alt="${POOL[picked[k]].ko}"></div>` : `<div class="slot"></div>`).join("");
+  $("slots").innerHTML = [0, 1, 2].map(k => picked[k] != null ? `<button class="slot" data-k="${k}" aria-label="${POOL[picked[k]].ko} 빼기"><b>${k + 1}</b><img src="${icon(POOL[picked[k]].id)}" alt=""></button>` : `<div class="slot"></div>`).join("");
   $("startBtn").disabled = !(ready && picked.length === 3);
 }
 $("q").oninput = renderPool;
+$("slots").onclick = e => { const b = e.target.closest("button"); if (b) { picked.splice(+b.dataset.k, 1); syncPick(); } };  // 아래 칸 포켓몬을 누르면 선택 취소
 $("pool").onclick = e => { const b = e.target.closest("button"); if (!b) return; const i = +b.dataset.i;
   picked = picked.includes(i) ? picked.filter(x => x !== i) : picked.length < 3 ? [...picked, i] : picked; syncPick(); };
 const shuffle = a => { for (let i = a.length - 1; i > 0; i--) { const j = Math.random() * (i + 1) | 0; [a[i], a[j]] = [a[j], a[i]]; } return a; };
