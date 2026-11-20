@@ -304,7 +304,7 @@ function segs(id, side) {
 }
 // 포켓몬 그림(/fr-icons/, 제작자 허락으로 배포판에도 포함). 메가는 메가 그림, 없으면 기본 모습 그림, 그래도 없으면 안 보임
 const FR_ICONS = true;
-const ICON_PICK = {"palafin": "palafinhero", "floette": "floetteeternal", "floettemega": "floetteeternal"};  // 대표 그림 바꿔 쓰기 (돌핀맨 → 마이티폼, 플라엣테 → 영원의 꽃)
+const ICON_PICK = {"floette": "floetteeternal", "floettemega": "floetteeternal"};  // 대표 그림 바꿔 쓰기 (돌핀맨 → 마이티폼, 플라엣테 → 영원의 꽃)
 const frId = sp => { const id = String(sp).toLowerCase().replace(/[^a-z0-9]/g, ""); return ICON_PICK[id] || id; };
 const frImg = (sp, big) => !FR_ICONS || !sp ? "" : `<img class="fr${big ? " big" : ""}" src="/fr-icons/${frId(sp)}.png" alt="" onerror="if(!this.dataset.b){this.dataset.b=1;this.src='/fr-icons/${frId(String(sp).split("-")[0])}.png'}else this.remove()">`;
 function team(id, side) {
