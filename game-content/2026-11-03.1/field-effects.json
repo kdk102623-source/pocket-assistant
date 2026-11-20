@@ -1,0 +1,272 @@
+{
+  "confusion": {
+    "name": "Confusion",
+    "nameKo": "혼란",
+    "description": "The Pokémon may hurt itself instead of using its move.",
+    "descriptionKo": "기술을 사용하는 대신 자신을 공격할 수 있다."
+  },
+  "trapped": {
+    "name": "Trapped",
+    "nameKo": "교체 불가",
+    "description": "The Pokémon is prevented from switching out normally.",
+    "descriptionKo": "일반적인 교체로 배틀에서 벗어날 수 없다."
+  },
+  "partiallytrapped": {
+    "name": "Binding",
+    "nameKo": "바인드",
+    "description": "A binding move damages the Pokémon each turn and prevents normal switching while its user remains active.",
+    "descriptionKo": "조이기 기술로 매 턴 데미지를 받으며, 기술을 쓴 포켓몬이 배틀에 있는 동안 일반적인 교체를 할 수 없다."
+  },
+  "mustrecharge": {
+    "name": "Recharging",
+    "nameKo": "반동으로 쉬는 중",
+    "description": "The Pokémon must recharge before it can move again.",
+    "descriptionKo": "다시 행동하기 전에 반동으로 쉬어야 한다."
+  },
+  "dynamax": {
+    "name": "Dynamax",
+    "nameKo": "다이맥스",
+    "description": "The Pokémon is Dynamaxed and can use Max Moves.",
+    "descriptionKo": "다이맥스 상태가 되어 다이맥스 기술을 사용할 수 있다."
+  },
+  "auroraveil": {
+    "name": "Aurora Veil",
+    "nameKo": "오로라베일",
+    "description": "Reduces physical and special damage received by this side.",
+    "descriptionKo": "이 진영이 물리 공격과 특수 공격으로 받는 데미지가 줄어든다."
+  },
+  "craftyshield": {
+    "name": "Crafty Shield",
+    "nameKo": "트릭가드",
+    "description": "Protects this side from status moves for this turn.",
+    "descriptionKo": "이번 턴 동안 이 진영을 변화 기술에서 지킨다."
+  },
+  "deltastream": {
+    "name": "Strong winds",
+    "nameKo": "델타스트림",
+    "description": "Strong winds weaken attacks that are super effective against Flying types.",
+    "descriptionKo": "강한 바람이 비행타입 포켓몬에게 효과가 굉장한 공격의 데미지를 줄인다."
+  },
+  "desolateland": {
+    "name": "Harsh sunlight",
+    "nameKo": "끝의대지",
+    "description": "An extremely harsh sunlight strengthens Fire moves and prevents Water moves.",
+    "descriptionKo": "매우 강한 햇살이 불꽃타입 기술을 강화하고 물타입 기술을 사용할 수 없게 한다."
+  },
+  "electricterrain": {
+    "name": "Electric Terrain",
+    "nameKo": "일렉트릭필드",
+    "description": "Grounded Pokémon cannot fall asleep. Electric moves used by grounded Pokémon become stronger.",
+    "descriptionKo": "땅에 있는 포켓몬은 잠들지 않는다. 땅에 있는 포켓몬의 전기타입 기술 위력이 오른다."
+  },
+  "fairylock": {
+    "name": "Fairy Lock",
+    "nameKo": "페어리록",
+    "description": "Pokémon cannot switch out on the next turn.",
+    "descriptionKo": "다음 턴에는 포켓몬을 교체할 수 없다."
+  },
+  "gmaxcannonade": {
+    "name": "G-Max Cannonade",
+    "nameKo": "거다이포격",
+    "description": "Damages the opposing side at the end of each turn for four turns.",
+    "descriptionKo": "4턴 동안 매 턴 종료 시 상대 진영에 데미지를 준다."
+  },
+  "gmaxresonance": {
+    "name": "G-Max Resonance",
+    "nameKo": "거다이선율",
+    "description": "Reduces physical and special damage received by this side.",
+    "descriptionKo": "이 진영이 물리 공격과 특수 공격으로 받는 데미지가 줄어든다."
+  },
+  "gmaxsteelsurge": {
+    "name": "G-Max Steelsurge",
+    "nameKo": "거다이강철진",
+    "description": "Damages Pokémon that switch into the opposing side according to their weakness to Steel.",
+    "descriptionKo": "상대 진영에 교체되어 나온 포켓몬에게 강철타입 상성에 따른 데미지를 준다."
+  },
+  "gmaxvinelash": {
+    "name": "G-Max Vine Lash",
+    "nameKo": "거다이편달",
+    "description": "Damages the opposing side at the end of each turn for four turns.",
+    "descriptionKo": "4턴 동안 매 턴 종료 시 상대 진영에 데미지를 준다."
+  },
+  "gmaxvolcalith": {
+    "name": "G-Max Volcalith",
+    "nameKo": "거다이분석",
+    "description": "Damages the opposing side at the end of each turn for four turns.",
+    "descriptionKo": "4턴 동안 매 턴 종료 시 상대 진영에 데미지를 준다."
+  },
+  "gmaxwildfire": {
+    "name": "G-Max Wildfire",
+    "nameKo": "거다이옥염",
+    "description": "Damages the opposing side at the end of each turn for four turns.",
+    "descriptionKo": "4턴 동안 매 턴 종료 시 상대 진영에 데미지를 준다."
+  },
+  "grassyterrain": {
+    "name": "Grassy Terrain",
+    "nameKo": "그래스필드",
+    "description": "Grounded Pokémon recover HP each turn. Grass moves become stronger and some Ground moves become weaker.",
+    "descriptionKo": "땅에 있는 포켓몬은 매 턴 HP를 회복한다. 풀타입 기술 위력이 오르고 일부 땅타입 기술 위력이 떨어진다."
+  },
+  "gravity": {
+    "name": "Gravity",
+    "nameKo": "중력",
+    "description": "Ground immunity from flight is removed, and moves become more accurate for five turns.",
+    "descriptionKo": "5턴 동안 떠 있는 포켓몬도 땅타입 기술에 맞고 기술의 명중률이 오른다."
+  },
+  "iondeluge": {
+    "name": "Ion Deluge",
+    "nameKo": "플라스마샤워",
+    "description": "Normal moves become Electric moves for the rest of the turn.",
+    "descriptionKo": "이번 턴 동안 노말타입 기술이 전기타입 기술로 바뀐다."
+  },
+  "lightscreen": {
+    "name": "Light Screen",
+    "nameKo": "빛의장막",
+    "description": "Reduces special damage received by this side for five turns.",
+    "descriptionKo": "5턴 동안 이 진영이 받는 특수 데미지가 줄어든다."
+  },
+  "luckychant": {
+    "name": "Lucky Chant",
+    "nameKo": "주술",
+    "description": "Prevents opposing moves from landing critical hits on this side.",
+    "descriptionKo": "상대의 공격이 이 진영 포켓몬의 급소에 맞지 않는다."
+  },
+  "magicroom": {
+    "name": "Magic Room",
+    "nameKo": "매직룸",
+    "description": "Held items have no effect for five turns.",
+    "descriptionKo": "5턴 동안 지닌 도구의 효과가 사라진다."
+  },
+  "matblock": {
+    "name": "Mat Block",
+    "nameKo": "마룻바닥세워막기",
+    "description": "Protects this side from damaging moves for this turn.",
+    "descriptionKo": "이번 턴 동안 이 진영을 공격 기술에서 지킨다."
+  },
+  "mist": {
+    "name": "Mist",
+    "nameKo": "흰안개",
+    "description": "Prevents opponents from lowering this side’s stats for five turns.",
+    "descriptionKo": "5턴 동안 상대가 이 진영 포켓몬의 능력치를 떨어뜨리지 못한다."
+  },
+  "mistyterrain": {
+    "name": "Misty Terrain",
+    "nameKo": "미스트필드",
+    "description": "Grounded Pokémon avoid status conditions and take less damage from Dragon moves.",
+    "descriptionKo": "땅에 있는 포켓몬은 상태 이상이 되지 않고 드래곤타입 기술의 데미지를 덜 받는다."
+  },
+  "mudsport": {
+    "name": "Mud Sport",
+    "nameKo": "진흙놀이",
+    "description": "Electric moves deal less damage.",
+    "descriptionKo": "전기타입 기술의 위력이 떨어진다."
+  },
+  "primordialsea": {
+    "name": "Heavy rain",
+    "nameKo": "시작의바다",
+    "description": "A heavy rain strengthens Water moves and prevents Fire moves.",
+    "descriptionKo": "매우 강한 비가 물타입 기술을 강화하고 불꽃타입 기술을 사용할 수 없게 한다."
+  },
+  "psychicterrain": {
+    "name": "Psychic Terrain",
+    "nameKo": "사이코필드",
+    "description": "Priority moves cannot hit grounded Pokémon. Grounded Pokémon use stronger Psychic moves.",
+    "descriptionKo": "땅에 있는 포켓몬은 우선도 높은 기술로 공격받지 않는다. 에스퍼타입 기술의 위력이 오른다."
+  },
+  "quickguard": {
+    "name": "Quick Guard",
+    "nameKo": "퍼스트가드",
+    "description": "Protects this side from priority attacks for this turn.",
+    "descriptionKo": "이번 턴 동안 이 진영을 우선도 높은 공격에서 지킨다."
+  },
+  "raindance": {
+    "name": "Rain",
+    "nameKo": "비",
+    "description": "Rain strengthens Water moves and weakens Fire moves.",
+    "descriptionKo": "물타입 기술의 위력이 오르고 불꽃타입 기술의 위력이 떨어진다."
+  },
+  "reflect": {
+    "name": "Reflect",
+    "nameKo": "리플렉터",
+    "description": "Reduces physical damage received by this side for five turns.",
+    "descriptionKo": "5턴 동안 이 진영이 받는 물리 데미지가 줄어든다."
+  },
+  "safeguard": {
+    "name": "Safeguard",
+    "nameKo": "신비의부적",
+    "description": "Protects this side from major status conditions for five turns.",
+    "descriptionKo": "5턴 동안 이 진영의 포켓몬이 상태 이상에 걸리지 않게 한다."
+  },
+  "sandstorm": {
+    "name": "Sandstorm",
+    "nameKo": "모래바람",
+    "description": "Damages Pokémon each turn except Rock, Ground, and Steel types. Rock types gain Sp. Def.",
+    "descriptionKo": "바위, 땅, 강철 타입을 제외한 포켓몬은 매 턴 데미지를 받는다. 바위 타입의 특수방어가 오른다."
+  },
+  "snowscape": {
+    "name": "Snow",
+    "nameKo": "눈",
+    "description": "Ice-type Pokémon gain Defense while snow is falling.",
+    "descriptionKo": "눈이 내리는 동안 얼음타입 포켓몬의 방어가 오른다."
+  },
+  "spikes": {
+    "name": "Spikes",
+    "nameKo": "압정뿌리기",
+    "description": "Damages grounded Pokémon when they switch in. More layers deal more damage.",
+    "descriptionKo": "교체되어 나온 땅에 있는 포켓몬에게 데미지를 준다. 설치한 횟수가 많을수록 데미지가 커진다."
+  },
+  "stealthrock": {
+    "name": "Stealth Rock",
+    "nameKo": "스텔스록",
+    "description": "Damages Pokémon on switch-in according to their weakness to Rock.",
+    "descriptionKo": "교체되어 나온 포켓몬에게 바위타입 상성에 따른 데미지를 준다."
+  },
+  "stickyweb": {
+    "name": "Sticky Web",
+    "nameKo": "끈적끈적네트",
+    "description": "Lowers the Speed of grounded Pokémon when they switch in.",
+    "descriptionKo": "교체되어 나온 땅에 있는 포켓몬의 스피드를 떨어뜨린다."
+  },
+  "sunnyday": {
+    "name": "Harsh sunlight",
+    "nameKo": "강한 햇살",
+    "description": "Sunlight strengthens Fire moves and weakens Water moves.",
+    "descriptionKo": "불꽃타입 기술의 위력이 오르고 물타입 기술의 위력이 떨어진다."
+  },
+  "tailwind": {
+    "name": "Tailwind",
+    "nameKo": "순풍",
+    "description": "Doubles the Speed of Pokémon on this side for four turns.",
+    "descriptionKo": "4턴 동안 이 진영 포켓몬의 스피드가 2배가 된다."
+  },
+  "toxicspikes": {
+    "name": "Toxic Spikes",
+    "nameKo": "독압정",
+    "description": "Poisons grounded Pokémon when they switch in. Two layers cause bad poison.",
+    "descriptionKo": "교체되어 나온 땅에 있는 포켓몬을 독 상태로 만든다. 2겹이면 맹독 상태로 만든다."
+  },
+  "trickroom": {
+    "name": "Trick Room",
+    "nameKo": "트릭룸",
+    "description": "Slower Pokémon act first within each move priority for five turns.",
+    "descriptionKo": "5턴 동안 같은 우선도의 기술에서는 스피드가 느린 포켓몬부터 행동한다."
+  },
+  "watersport": {
+    "name": "Water Sport",
+    "nameKo": "물놀이",
+    "description": "Fire moves deal less damage.",
+    "descriptionKo": "불꽃타입 기술의 위력이 떨어진다."
+  },
+  "wideguard": {
+    "name": "Wide Guard",
+    "nameKo": "와이드가드",
+    "description": "Protects this side from moves that hit multiple Pokémon for this turn.",
+    "descriptionKo": "이번 턴 동안 이 진영을 범위 공격에서 지킨다."
+  },
+  "wonderroom": {
+    "name": "Wonder Room",
+    "nameKo": "원더룸",
+    "description": "Pokémon swap their Defense and Sp. Def for five turns.",
+    "descriptionKo": "5턴 동안 모든 포켓몬의 방어와 특수방어가 서로 바뀐다."
+  }
+}
